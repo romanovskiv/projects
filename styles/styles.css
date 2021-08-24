@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a::after,
+a::before,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    background: #fff;
+}
+
+
+/* BUTTON */
+
+.btn {
+    width: 110px;
+    background: #3a5aff;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding: 10px 24px;
+}
+
+.btn:hover,
+.btn--output:hover {
+    background: #ffc43b;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    color: #ffffff;
+    box-shadow: inset 0px -4px 1px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+.btn--output {
+    width: 110px;
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    color: #979797;
+    margin-right: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    padding: 10px 24px;
+}
+
+
+/* HEADER STYLES */
+
+header {
+    background-color: #fff;
+    padding: 45px 66px 0px;
+    margin-bottom: 45px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 50px;
+    font-family: 'Vibur', cursive;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sign-nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lng-list {
+    margin-right: 20px;
+}
+
+.lng-list span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    /* $pmsBlack7 */
+    color: #333333;
+    margin-right: 5px;
+}
+
+.sign-up {
+    margin-right: 20px;
+    box-shadow: inset 0px -4px 1px rgba(0, 0, 0, 0.6);
+}
+
+
+/* END HEADER */
+
+
+/* SECTION MAIN-HEADER */
+
+.main-header {
+    padding: 45px 145px;
+}
