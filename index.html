@@ -1,46 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Vibur&display=swap" rel="stylesheet" />
-    <!-- https://www.figma.com/community/file/879836167195093453 test -->
-    </head>
 
-    <body>
-        <div class="wrap">
-            <header class="header">
-                <nav class="nav">
-                    <div class="logo">
-                        <a href="#" class="logo-img"><img src="/img/Logo.png" alt="logo" /></a>
-                        <span class="logo-name">Kurtis Classrom</span>
-                    </div>
-                    <div class="sign-nav">
-                        <a href="" class="lng-list"><span>EN</span><img src="/img/Arrow 1.png" alt="lng"
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<link rel="stylesheet" href="/styles/styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Vibur&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+<!-- https://www.figma.com/community/file/879836167195093453 -->
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="#" class="logo-img"><img src="/img/Logo.png" alt="logo" /></a>
+                    <span class="logo-name">Kurtis Classrom</span>
+                </div>
+                <div class="sign-nav">
+                    <a href="" class="lng-list"><span>EN</span><img src="/img/Arrow 1.png" alt="lng"
             /></a>
-                        <a href="" class="sign-up btn">Sign up</a>
-                        <a href="" class="log-in btn--output">Log in</a>
-                        <a href="" class="burger"><img src="/img/burger.png" alt="menu" /></a>
+                    <a href="" class="sign-up btn">Sign up</a>
+                    <a href="" class="log-in btn btn--output">Log in</a>
+                    <!-- <a href="" class="burger"><img src="/img/burger.png" alt="menu" /></a> -->
+                    <div class="menu-btn">
+                        <div class="menu-btn__burger"></div>
                     </div>
-                </nav>
-            </header>
-            <main>
-                <section class="main-header">
-                    <h2>Make learning fun!</h2>
-                    <h1>Any subject, in any language, on any device, for all ages!</h1>
-                </section>
-            </main>
-        </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="main-header">
+                <div class="l-m">
+                    <div class="left_main">
+                        <h2>Make learning fun!</h2>
+                        <h1>Any subject, in any language, on any device, for all ages!</h1>
+                    </div>
+                    <a href="#" class="btn main-header-btn">Sign up for free</a>
+                    <div class="download-section">
+                        <p>Or download the app:</p>
+                        <div class="load--links">
+                            <a href="#"><img src="img/as--link.png" alt=""></a>
+                            <a href="#"><img src="/img/gp-link.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
 
-        <script src="app.js"></script>
-    </body>
+                <div class="right_main"><img src="/img/right_main_img.png" alt=""></div>
+            </section>
+            <section class="learn">
+                <h3>Who is Kurtis for?</h3>
+                <div class="learn_tabs">
+                    <div class="learn_tab">
+                        <span><img src="/img/icon.png" alt=""></span>
+                        <h4>At School</h4>
+                        <p>Engaging group and distance learning for teachers and students.</p>
+                        <a href="#" class="l_more">Learn more</a>
+                    </div>
+                    <div class="learn_tab">
+                        <span><img src="/img/icon-1.png" alt=""></span>
+                        <h4>At work</h4>
+                        <p>For training, e-learning, interactive presentations and more.</p>
+                        <a href="#" class="l_more">Learn more</a>
+                    </div>
+                    <div class="learn_tab">
+                        <span><img src="/img/icon-2.png" alt=""></span>
+                        <h4>At home</h4>
+                        <p>Apps and games for <br>family fun or home<br> study.</p>
+                        <a href="#" class="l_more">Learn more</a>
+                    </div>
+                    <div class="learn_tab">
+                        <span><img src="/img/icon-3.png" alt=""></span>
+                        <h4>Learning apps</h4>
+                        <p>Engage kids with the Kahoot! family of<br> learning apps</p>
+                        <a href="#" class="l_more">Learn more</a>
+                    </div>
+                </div>
+                <a href="#" class="btn learn--btn">Sign up now</a>
+            </section>
+            <section class="slider">
+                <h3>Amazing things are happening</h3>
+                <div class="slider"></div>
+            </section>
+            <section class="game">
+                <div class="wrap_game">
+                    <div class="logo__game"><img src="" alt=""></div>
+                    <div class="input_game">
+                        <form action="text" class="game"><input type="text" placeholder="Write the code here"><img src="/img/Arrow 2.png" style="transform: translateX(-20px);" alt="">
+
+                        </form>
+
+
+                        <span>1</span>
+                    </div>
+
+                </div>
+
+
+            </section>
+        </main>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
 
 </html>
