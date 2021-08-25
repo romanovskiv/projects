@@ -13,6 +13,12 @@ $menuBtn.addEventListener('click', () => {
 var swiper = new Swiper('.swiper', {
     slidesPerView: '3',
     centeredSlides: true,
+    // freeMode: true,
+    // centeredSlides: true,
+    mousewheel: true,
+    keyboard: {
+        enabled: true,
+    },
     spaceBetween: 630,
     loop: true,
     pagination: {
