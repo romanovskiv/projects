@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 <link rel="stylesheet" href="/styles/styles.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -85,9 +86,26 @@
                 </div>
                 <a href="#" class="btn learn--btn">Sign up now</a>
             </section>
-            <section class="slider">
+
+            <section class="slider-m">
                 <h3>Amazing things are happening</h3>
-                <div class="slider"></div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img style="width: 635px; height: 308px" src="/img/Type1.png" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img style="width: 635px; height: 308px" src="/img/Type2.png" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img style="width: 635px; height: 308px" src="/img/Type3.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
             <section class="game">
                 <div class="wrap_game">
@@ -110,7 +128,10 @@
     </div>
 
 
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
+
 </body>
 
 </html>

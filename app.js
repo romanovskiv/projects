@@ -9,3 +9,15 @@ $menuBtn.addEventListener('click', () => {
 
     isMenuOpen = !isMenuOpen
 })
+
+var swiper = new Swiper('.swiper', {
+    slidesPerView: '3',
+    centeredSlides: true,
+    spaceBetween: 630,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        // dynamicBullets: true,
+        clickable: true,
+    },
+})

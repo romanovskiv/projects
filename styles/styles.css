@@ -333,11 +333,16 @@ a {
 
 /* SLIDER SECTION */
 
-.slider h3 {
-    color: #333333;
+section.slider-m {
+    padding: 0;
 }
 
-.slider h3::after {
+.slider-m h3 {
+    color: #333333;
+    margin-top: 56px;
+}
+
+.slider-m h3::after {
     content: '';
     display: block;
     margin: 0 auto;
@@ -345,7 +350,46 @@ a {
     border-bottom: 8px solid #3a5aff;
 }
 
+.swiper {
+    width: 1320px;
+    height: 409px;
+    margin-top: 47px;
+}
+
+.swiper-slide {
+    text-align: center;
+    align-content: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: #979797 !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    margin: 0 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff !important;
+}
+
+
+/* .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: auto !important;
+    left: 0;
+    width: 100%;
+} */
+
 .wrap_game {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
