@@ -28,6 +28,14 @@ h3 {
     text-align: center;
 }
 
+.h3-after::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 116px;
+    border-bottom: 8px solid #3a5aff;
+}
+
 .wrap {
     background: #fff;
 }
@@ -266,14 +274,6 @@ section {
     background: #f2f2f2;
 }
 
-.learn h3::after {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    width: 116px;
-    border-bottom: 8px solid #3a5aff;
-}
-
 .learn_tabs {
     margin-top: 56px;
     display: flex;
@@ -283,6 +283,10 @@ section {
 
 .learn_tab span {
     margin-bottom: 30px;
+}
+
+.learn_tab h3 {
+    color: #2f281e;
 }
 
 .learn_tab h4 {
@@ -335,19 +339,25 @@ a {
 
 section.slider-m {
     padding: 0;
+    margin-bottom: 42px;
 }
 
 .slider-m h3 {
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     margin-top: 56px;
 }
 
-.slider-m h3::after {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    width: 116px;
-    border-bottom: 8px solid #3a5aff;
+.slider--text h3 {
+    color: #2f281e;
+}
+
+.slider--text p {
+    font-family: 'Poppins', sans-serif;
+    color: #544837;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
 }
 
 .swiper {
@@ -388,10 +398,57 @@ section.slider-m {
     width: 100%;
 } */
 
+
+/* END SLIDER SECTION */
+
+
+/* GAME SECTION */
+
+.game {
+    background: #ffc43b;
+}
+
 .wrap_game {
-    margin-top: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 189.5px 514px 0;
+}
+
+.input {
+    margin-top: 52px;
+    width: 372px;
+}
+
+input {
+    width: 372px;
+    padding: 32.15px 72px 26.15px 30px;
+    border-radius: 46px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #979797;
+    outline: none;
+}
+
+.input--img {
+    position: absolute;
+    right: 1099px;
+    top: 2470px;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #979797;
+}
+
+.form--p {
+    text-align: center;
+    color: #979797;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 18px 0 208.5px;
 }
